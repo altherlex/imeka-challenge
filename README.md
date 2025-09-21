@@ -7,7 +7,12 @@ $ git clone https://github.com/altherlex/imeka-challenge.git
 $ cd imeka-challenge
 $ python fizz_buzz.py
 $ python reverse_words.py
+
 $ open todo-list/index.html
+
+$ python
+>>> from reverse_words import reverse_words_to_file
+>>> reverse_words_to_file('hello world!')
 ```
 
 ## General code - Q1
